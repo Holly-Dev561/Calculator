@@ -1,0 +1,75 @@
+* {
+    font-family: sans-serif;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+    height: max-content;
+    width: max-content;
+    background-color: #5f5f5f;
+}
+
+body {
+    height: max-content;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head {
+    height: max-content;
+    width: max-content;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    background-color: #dddddd;
+    color: black;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 650;
+    display: flex;
+    align-items: center;
+}
+
+#keypad {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Buttons style*/
+
+button {
+
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #8d8d8d;
+    border: 0px solid black;
+}
+
+#delete {
+    width: auto;
+    color: white;
+    background-color: #ce3030;
+}
+
+#reset {
+    color: white;
+    background-color: #501ae6;
+    width: auto;
+}
+
+#equal {
+    color: white;
+    background-color: #d88110;
+}
